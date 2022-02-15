@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #333333;
+    display: flex;
+}
+.section_1{
+    width: 65%;
+    height: 100vh;
+    background-color: rgb(255, 0, 191);
+}
+.header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    font-size: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+}
+.audios
+{
+    height: 600px;
+    width: 100%;
+    padding: 50px;
+    margin-left: 0px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    column-gap: calc(4%/3);
+    row-gap: 40px;
+    column-gap: 140px;
+}
+.audio{
+    height: auto;
+    min-height: 470px;
+    width:40%;
+    background-color: #070707;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.audio_img{
+    width: 380px;
+    height: 350px;
+    
+}
+.audio_img > img {
+    width: 100%;
+}
+.audio_detail{
+    padding: 40px;
+}
+.audio_title{
+    font-family: segoe UI;
+    color: white;
+}
+.btn{
+    padding: 10px 50px;
+    margin-top: 20px;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+.btn:hover {
+    background-color:#4fb8e2;
+    border: 2px solid #6b6445;
+    transform: translateY(5px);
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 100px;
+}
+
+/*section 2  */
+
+.section_2{
+    width: 35%;
+    height: 100vh;
+    background-color: #070707;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: center;
+}
+.image{
+    width: 100%;
+    height: 400px;
+    overflow:hidden;
+    border-radius: 10px;
+}
+.image > img {
+    width: 100%;
+}
+.audio_player{
+    width: 100%;
+}
+.audio_player_title
+{
+    font-family: segoe UI;
+    color: white;
+    font-size: 40px;
+}
+audio::-webkit-media-controls-panel
+{
+    background-color: rgb(255, 255, 255);
+}
+audio::-webkit-media-controls-play-button
+{
+    background-color: rgb(255, 255, 255);
+}
+audio::-webkit-media-controls-play-button:hover
+{
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 15px;
+}

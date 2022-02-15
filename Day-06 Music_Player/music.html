@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+
+    <section class="container">
+
+        <div class="section_1">
+
+            <header class="header">
+                <p>
+                    Sound_Karo
+                </p>
+            </header>
+
+            <div class="audios" id="audios">
+
+                    <div class="audio">
+                        <div class="audio_img">
+                            <img src="image\arakiyea.jpeg">
+                        </div>
+                        <div class="audio_detail">
+                            <h1 class="audio_title">Arakiyea - Hip Hop</h1>
+                            <button class="btn" onclick="playAudio(1)">Play</button>
+                        </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="image\adi penne.jpeg">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Adi penne</h1>
+                        <button class="btn" onclick="playAudio(2)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="image\enna nadanthalum.jpeg">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Yenna nadanthalum</h1>
+                        <button class="btn" onclick="playAudio(3)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="image\sivakumar.jpeg">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">sivakumar-Pontatie</h1>
+                        <button class="btn" onclick="playAudio(4)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="image\O samy.jpg">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">O samy</h1>
+                        <button class="btn" onclick="playAudio(5)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="image\Oo solriya.jpeg">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Oo solriya</h1>
+                        <button class="btn" onclick="playAudio(6)"> Play</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- section _ 2 -->
+
+        <div class="section_2">
+
+            <div class="image">
+                <img id="image" src="image\sivakumar.jpeg">
+            </div>
+
+            <audio id="audio_player" class="audio_player" src="audio\Sivakumar-Pondati-MassTamilan.fm.mp3" controls></audio>
+
+            <h1 class="audio_player_title" id="audio_player_title">Sivakumar-Pondati-HIP HOP</h1>
+
+        </div>
+    </section>
+    <script src="music.js"></script>
+</body>
+</html>
